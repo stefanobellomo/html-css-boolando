@@ -3,6 +3,12 @@
     background-color: brown;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root{
     --dis-black: #1a1a1a;
     --dis-gray: #ebebeb;
@@ -76,13 +82,16 @@ figure{
 
 .models{
     position: relative;
-    width: 100%;
+    width: 30%;
 }
 
 .modelb{
     display: none;
     position: absolute;
 
+    img{
+      width: 100%;
+    }
 }
 
 .imga{
