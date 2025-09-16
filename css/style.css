@@ -159,7 +159,7 @@ figure{
     background-color: var(--dis-green);
     position: absolute;
     bottom: 25%;
-    left: 15%;
+    left: 12%;
     font-size: 6px;
     z-index: 1;
     padding: 5px;
@@ -219,10 +219,8 @@ footer{
 
 .img-center-top {
     width: 100%;
-
 }
 
 .img-right-top {
     width: 100%;
-
 }
