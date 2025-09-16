@@ -22,7 +22,12 @@ header{
     background-color: var(--dis-orange);
     color: #ebebeb;
     font-size: 0.5rem;
-    padding: 5px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 4px;
+    margin-bottom: 10px;
 }
 
 .container {
@@ -74,11 +79,20 @@ a {
 
 /*main*/
 
+main{
+    margin-top: 20px;
+}
+
 section {
     margin: 10px;
 }
 
-.top .d-flex {
+.top{
+    margin-top: 50px
+}
+
+.top .d-flex,
+.down .d-flex {
     display: flex;
     justify-content: space-around;
     padding: 10px 5px;
